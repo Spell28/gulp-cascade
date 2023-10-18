@@ -1,0 +1,14 @@
+@import '_vars';
+@import '_fonts';
+
+// =============================================================================
+// Global
+// =============================================================================
+
+body {
+	padding: 0;
+	margin: 0;
+	background: $background-color;
+	font-family: $main-font;
+	font-size: $text-size;
+}
