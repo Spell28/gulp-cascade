@@ -14,6 +14,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-avif": "^1.1.1",
+    "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.3.0",
     "gulp-flatten": "^0.4.0",
     "gulp-fonter-2": "^0.3.0",

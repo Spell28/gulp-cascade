@@ -7,6 +7,7 @@ const paths = {
     htmlElements: 'src/elements/**/*.html',
     images: 'src/images/*',
     fonts: 'src/fonts/*.*',
+    libraries: 'src/libraries',
   },
   dist: {
     css: 'dist/assets/css',
@@ -16,5 +17,13 @@ const paths = {
     fonts: 'dist/assets/fonts',
   },
 };
+
+export const librariesArr = [
+  {
+    name: 'Splide',
+    css: [`${paths.src.libraries}/splide/css/splide.min.css`],
+    js: [`${paths.src.libraries}/splide/js/splide.min.js`]
+  },
+]
 
 export default paths;

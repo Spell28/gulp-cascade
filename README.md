@@ -99,10 +99,15 @@ cd gulp-cascade
 - gulp-ttf2woff2
 
 
+## Js libraries used
+- [Splidejs](https://github.com/Splidejs/splide)
+
+
 ## TODO
 - Search, install, and approval of standard javascript libraries
+- Styles and Scripts injection to html
 
 
 ## Author
-- [Spell](https://www.github.com/spell28)
+- [Spell](https://github.com/spell28)
 
