@@ -60,6 +60,7 @@ cd gulp-cascade
     |        └── main.js                    # Main js file
     |    └── index.html                     # Entry point
     ├── package.json                        # Dependency list, ...etc
+    ├── gulpfile.js                         # Gulp config file
     ├── README.md                           # About project
     └── .gitignore                          # Ignoring files for git
 
