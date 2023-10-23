@@ -1,6 +1,6 @@
 
 # Gulp cascade
-My base gulp project for static web sites.
+My base gulp project for static websites.
 
 
 ## Features
@@ -11,7 +11,7 @@ My base gulp project for static web sites.
 - Image optimization (avif, webp, jpg, png, svg)
 - Cache for images
 - Fonts optimization (ttf to woff and woff2)
-- Asking user via prompt if user wants file optimization
+- Asking the user via prompt if a user wants file optimization
 
 ## Installation
 
@@ -43,24 +43,34 @@ cd gulp-cascade
     ├── dist                                # Transpiled and optimized files
     |    └── index.html                     # HTML Entry point
     |    └── assets                         # Css, Js, Images, Fonts
-    |        └── css                        # All css files
-    |        └── js                         # All js files
-    |        └── images                     # All images
-    |        └── fonts                      # All fonts
+    |    |   ├── css                        # All css files
+    |    |   ├── js                         # All js files
+    |    |   ├── images                     # All images
+    |    |   └── fonts                      # All fonts
+    ├── gulpfile.esm.js                     # Gulp folder
+    |    └── tasks                          # Tasks folder
+    |    |   ├── fonts.js                   # Fonts task file
+    |    |   ├── html.js                    # HTML task file
+    |    |   ├── images.js                  # Images task file
+    |    |   ├── optimize.js                # Optimization task file
+    |    |   ├── scripts.js                 # Scripts task file
+    |    |   ├── serve.js                   # Server task file
+    |    |   └── styles.js                  # Styles task file
+    |    ├── index.js                       # Gulp entry point file
+    |    └── paths.js                       # All paths to directories for gulp configs
     ├── src                                 # Source files
     |    └── scss                           # Scss files
-    |        └── main.scss                  # Main scss file
-    |        └── _vars.scss                 # Scss variables
-    |        └── _mixines.scss              # Scss mixines
-    |        └── _fonts.scss                # Project font-faces
-    |    └── elements                       # HTML elements for including into the pages
-    |    └── fonts                          # Fonts folder
-    |    └── images                         # Image folder
-    |    └── scripts                        # Js folder
-    |        └── main.js                    # Main js file
+    |    |   ├── main.scss                  # Main scss file
+    |    |   ├── _vars.scss                 # Scss variables
+    |    |   ├── _mixines.scss              # Scss mixines
+    |    |   └── _fonts.scss                # Project font-faces
+    |    ├── elements                       # HTML elements for including into the pages
+    |    ├── fonts                          # Fonts folder
+    |    ├── images                         # Image folder
+    |    ├── scripts                        # Js folder
+    |    |   └── main.js                    # Main js file
     |    └── index.html                     # Entry point
     ├── package.json                        # Dependency list, ...etc
-    ├── gulpfile.js                         # Gulp config file
     ├── README.md                           # About project
     └── .gitignore                          # Ignoring files for git
 
@@ -85,12 +95,12 @@ cd gulp-cascade
 - gulp-flatten
 - gulp-if
 - gulp-prompt
-- gulp-fonter (Fixed paths version)
+- gulp-fonter (With paths fix version)
 - gulp-ttf2woff2
 
 
 ## TODO
-- Split gulpfile.js
+- Search, install, and approval of standard javascript libraries
 
 
 ## Author
